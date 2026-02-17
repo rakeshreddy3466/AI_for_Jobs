@@ -1,0 +1,144 @@
+{
+  "personal_info": {
+    "name": "Rakesh Reddy Karri",
+    "title": "AI Engineer | Workflow Automation Specialist | AI Security Researcher",
+    "email": "rakeshreddy3466@gmail.com",
+    "phone": "+46 769538795",
+    "linkedin": "linkedin.com/in/rakesh-reddy-karri",
+    "github": "github.com/rakeshreddy3466",
+    "portfolio": "",
+    "location": "Karlskrona, Sweden"
+  },
+  "ats_core_competencies": [
+    "Agentic AI Orchestration",
+    "Self-Healing Infrastructure",
+    "Adversarial AI Defense",
+    "Cognitive Security",
+    "Retrieval-Augmented Generation (RAG)",
+    "Autonomous Multi-Agent Systems",
+    "Full Stack Development",
+    "Computer Vision",
+    "Synthetic Data Generation",
+    "Event-Driven Automation"
+  ],
+  "skills": {
+    "agentic_ai_and_automation": [
+      "n8n Workflow Automation", "LangChain", "CrewAI", "AutoGen",
+      "OpenAI API (Function Calling)", "ReAct Pattern", "Chain-of-Thought Prompting",
+      "Self-Correction Loops", "JSON Schema Validation (Pydantic/Zod)"
+    ],
+    "ai_security_and_research": [
+      "AI Red Teaming", "Prompt Injection Defense", "Lakera Guard", "Garak",
+      "Adversarial Feedback Loops", "Cognitive Patching", "BERT Classifiers"
+    ],
+    "full_stack_and_cloud": [
+      "Python (FastAPI)", "Node.js", "React.js", "Flutter", "Firebase",
+      "Docker", "AWS (Lambda, EC2)", "Vector Databases (Pinecone/ChromaDB)",
+      "Gmail API (IMAP)", "REST API Integration"
+    ],
+    "machine_learning_core": [
+      "TensorFlow", "PyTorch", "Computer Vision", "Autoencoders (PMAA)",
+      "Synthetic Data (Perlin Noise)", "Model Evaluation (PSNR/SSIM)"
+    ]
+  },
+  "education": [
+    {
+      "school": "Blekinge Institute of Technology",
+      "degree": "Master of Science in Software Engineering",
+      "dates": "Aug 2025 - Present",
+      "location": "Karlskrona, Sweden",
+      "details": "Focus on Intelligent System Design and AI Security Architectures."
+    },
+    {
+      "school": "Blekinge Institute of Technology",
+      "degree": "Bachelor of Technology in Computer Science",
+      "dates": "Sep 2024 - Jun 2025",
+      "location": "Karlskrona, Sweden",
+      "details": "Final year of International Collaborative Program. Thesis on Satellite Image Enhancement."
+    },
+    {
+      "school": "Jawaharlal Nehru Technological University (JNTUK)",
+      "degree": "Bachelor of Technology in Computer Science",
+      "dates": "Apr 2021 - Aug 2024",
+      "location": "Kakinada, India",
+      "details": "Focus on Computer Science fundamentals."
+    }
+  ],
+  "experience": [
+    {
+      "id": "exp_tech_concept_lab",
+      "company": "Tech Concept Lab",
+      "role": "AI Security Architect & Researcher",
+      "dates": "Nov 2025 - Present",
+      "location": "Karlskrona, Sweden",
+      "raw_bullets": [
+        "Architecting the 'Digital Immune System' for AI, moving from static firewalls to adaptive resilience against cognitive attacks.",
+        "Designing 'Red Team' agents that autonomously attack production models to discover vulnerabilities before deployment.",
+        "Implementing self-healing loops where the system generates 'Cognitive Patches' (system prompt updates) in real-time upon detecting a breach.",
+        "Developing lightweight BERT-based 'Sentinel' classifiers for low-latency (<100ms) anomaly detection in prompts."
+      ]
+    },
+    {
+      "id": "exp_calebs",
+      "company": "Calebs",
+      "role": "Junior AI Engineer",
+      "dates": "Oct 2025 - Present",
+      "location": "India (Remote)",
+      "raw_bullets": [
+        "Built and deployed AI agents to automate tasks and streamline business workflows.",
+        "Developed core AI features and LLM automation pipelines.",
+        "Collaborated with teams to design scalable, secure, and efficient AI solutions."
+      ]
+    },
+    {
+      "id": "exp_bth_thesis",
+      "company": "Blekinge Institute of Technology",
+      "role": "Thesis Researcher",
+      "dates": "Jan 2025 - Jun 2025",
+      "location": "Karlskrona, Sweden",
+      "raw_bullets": [
+        "Developed a novel Progressive Multi-scale Attention Autoencoder (PMAA) model to remove clouds from satellite images.",
+        "Generated a synthetic dataset of 10,000 images using Perlin noise and volumetric rendering.",
+        "Proved PMAA outperformed STGAN & CTGAN on synthetic data metrics (PSNR, SSIM)."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": "proj_invisible_engine",
+      "title": "The Invisible Engine & Digital Immune System",
+      "tech": "LangChain, n8n, CrewAI, Lakera Guard, Python, Pinecone",
+      "raw_details": "Architected an 'Adaptive Resilience' system that treats cyber threats like biological viruses. Implemented an 'Adversarial Feedback Loop' where a Red Team agent attacks the model, and a 'Sentinel' (BERT classifier) detects anomalies. Features a self-healing mechanism that automatically updates system prompts ('Cognitive Patches') to block specific semantic attack vectors in real-time."
+    },
+    {
+      "id": "proj_agentic_orchestrator",
+      "title": "Agentic AI Workflow Orchestrator",
+      "tech": "n8n, OpenAI (Function Calling), LangChain, Python, Pydantic",
+      "raw_details": "Designed a 'Loop-on-Error' architecture to solve the 'Hallucination of Action' problem. If the AI generates invalid JSON, the error is fed back into the model to self-correct. Uses Chain-of-Thought prompting to decompose vague requests into a Directed Acyclic Graph (DAG) of tasks. Implemented 'Human-on-the-Loop' checkpoints for high-risk actions."
+    },
+    {
+      "id": "proj_email_lead_manager",
+      "title": "Autonomous Email Lead Manager (SDR Agent)",
+      "tech": "n8n, Gmail API (IMAP Idle), GPT-4o Mini, HubSpot API",
+      "raw_details": "Built a 'Watch-Analyze-Act' pipeline that transforms unstructured emails into structured CRM data. Uses IMAP Idle for real-time triggering (no polling). Implemented regex pre-filtering to save API costs and an entity extraction layer to normalize phone numbers to E.164 format before upserting to HubSpot."
+    },
+    {
+      "id": "proj_pmaa_thesis",
+      "title": "Thesis: Synthetic Cloud Removal from Satellite Images",
+      "tech": "Python, TensorFlow, Deep Learning, Autoencoders (PMAA)",
+      "raw_details": "Developed a Progressive Multi-scale Attention Autoencoder to reconstruct cloud-free optical satellite images. Generated 10,000 synthetic training images using Perlin noise. Outperformed state-of-the-art models (STGAN, CTGAN) in PSNR and SSIM metrics."
+    },
+    {
+      "id": "proj_recklamradar",
+      "title": "RecklamRadar: Smart Shopping Mobile App",
+      "tech": "Flutter, Dart, Firebase, REST APIs",
+      "raw_details": "Engineered a cross-platform shopping application integrating real-time store offers and admin panels. Implemented Firebase Auth & Firestore for secure data handling. Optimized UI performance with lazy loading and caching."
+    },
+    {
+      "id": "proj_skillswap",
+      "title": "SkillSwap: Peer-to-Peer Learning Network",
+      "tech": "React, Node.js, Express, Socket.io, Docker, SQLite",
+      "raw_details": "Full-stack web platform for skill exchange. Implemented real-time chat using Socket.io and secure JWT authentication. Managed data with a structured 9-table SQLite schema and containerized the application with Docker for production."
+    }
+  ]
+}

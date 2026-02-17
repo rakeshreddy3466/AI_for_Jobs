@@ -1,0 +1,158 @@
+\documentclass[11pt, a4paper]{article}
+\usepackage[top=0.5in, bottom=0.5in, left=0.5in, right=0.5in]{geometry}
+
+% --- FONT & ENCODING SETUP ---
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[sfdefault]{noto} 
+\usepackage[english]{babel}
+
+\usepackage{xcolor}
+\usepackage{enumitem}
+\usepackage{titlesec}
+\usepackage{parskip}
+\usepackage{tabularx}
+
+% --- COLOR & STYLE SETTINGS ---
+\definecolor{primaryBlue}{RGB}{0, 100, 140} 
+\definecolor{darkGrey}{RGB}{30, 30, 30}
+
+% Section Headers
+\titleformat{\section}{\large\bfseries\color{primaryBlue}\uppercase}{}{0em}{}[\titlerule]
+\titlespacing{\section}{0pt}{2ex}{1ex}
+
+% Subsection Headers
+\titleformat{\subsection}{\bfseries\color{darkGrey}}{}{0em}{}
+\titlespacing{\subsection}{0pt}{1ex}{0.5ex}
+
+% List Settings
+\setlist[itemize]{leftmargin=1.2em, labelsep=0.5em, itemsep=0.2ex, parsep=0.2ex, topsep=0ex}
+
+% Hyperlinks
+\usepackage{hyperref}
+\hypersetup{colorlinks=true, urlcolor=primaryBlue, linkcolor=primaryBlue}
+
+% --- COMPATIBILITY LAYER FOR PYTHON SCRIPT ---
+\newcommand{\cventry}[6]{
+    \subsection*{#2 \hfill #4} 
+    #6 
+    \vspace{0.5em}
+}
+
+\begin{document}
+
+% --- HEADER ---
+\begin{center}
+    {\LARGE\bfseries\color{primaryBlue} RAKESH REDDY KARRI} \\
+    \vspace{0.5em}
+    \small Karlskrona, Sweden \ | \ +46 769538795 \ | \ \href{mailto:rakeshreddy3466@gmail.com}{rakeshreddy3466@gmail.com} \\
+    \href{https://www.linkedin.com/in/rakesh-reddy-553033256/}{LinkedIn} \ | \ \href{https://github.com/rakeshreddy3466}{GitHub}
+\end{center}
+
+% --- SUMMARY ---
+\section*{Professional Summary}
+Software Engineering Master’s student with growing expertise in machine learning, deep learning, and intelligent system design. Experienced in developing end-to-end AI pipelines, including computer vision models, cloud-based deployments, and automated workflows. Contributed to projects involving satellite image enhancement and serverless image processing, with a focus on model evaluation and explainability. With hands-on skills in both mobile App and Web App development, I aim to build practical, user-focused solutions.
+
+% --- SKILLS ---
+\section*{Technical Skills}
+\noindent
+\begin{tabularx}{\textwidth}{@{}l X@{}}
+\textbf{AI/ML \& Agents:} & TensorFlow, PyTorch, OpenCV, Machine Learning, n8n (Workflow Automation), REST APIs, Synthetic Data Generation \\
+\textbf{Data Science:} & Model Evaluation (PSNR, SSIM), Data Analysis, Perlin Noise Generation, Volumetric Rendering \\
+\textbf{Full Stack:} & Python, C/C++, Java, JavaScript, React, Flutter, Dart, Firebase, Android Studio, Node.js, Express.js \\
+\textbf{Cloud \& DevOps:} & AWS (EC2, S3, Lambda), Docker, CI/CD, SQL, SQLite, Git, GitHub \\
+\end{tabularx}
+
+% --- EXPERIENCE ---
+\section*{Professional Experience}
+
+\subsection*{AI Consultant \hfill Nov 2025 --- Present}
+\textit{Tech Concept Lab (Blue Science Park) | Karlskrona, Sweden}
+\begin{itemize}
+    \item \textbf{AI-Agent Development:} Researching and developing AI-Agent implementations for real-world automation use cases.
+    \item \textbf{Workflow Automation:} Designing and building automated workflows using n8n for data processing, API integration, and AI-driven tasks.
+    \item \textbf{Scalable Pipelines:} Creating scalable, event-driven automation pipelines connecting AI models with business systems.
+    \item \textbf{Integration:} Integrating third-party services, APIs, and cloud tools to streamline operations and reduce manual workload.
+\end{itemize}
+
+\subsection*{Junior AI Engineer \hfill Oct 2025 --- Present}
+\textit{Calebs | India (Remote)}
+\begin{itemize}
+    \item \textbf{Agent Deployment:} Built and deployed AI agents to automate tasks and streamline business workflows.
+    \item \textbf{Pipeline Maintenance:} Developed and maintained core AI features and LLM automation pipelines in the platform.
+    \item \textbf{Solution Design:} Collaborated with teams to design scalable, secure, and efficient AI solutions.
+\end{itemize}
+
+\subsection*{Thesis Researcher \hfill Jan 2025 --- Jun 2025}
+\textit{Blekinge Institute of Technology | Karlskrona, Sweden}
+\begin{itemize}
+    \item \textbf{Model Development:} Developed a novel Progressive Multi-scale Attention Autoencoder (PMAA) model using Python to remove clouds/shadows from satellite images.
+    \item \textbf{Synthetic Data:} Generated a synthetic dataset of 10,000 images using Perlin noise and volumetric rendering.
+    \item \textbf{Evaluation:} Proved PMAA outperformed STGAN \& CTGAN on synthetic data metrics (PSNR, SSIM). Published in DiVA Portal.
+\end{itemize}
+
+\subsection*{Student Ambassador \& PREP Leader \hfill Aug 2025 --- Present}
+\textit{Blekinge Institute of Technology | Karlskrona, Sweden}
+\begin{itemize}
+    \item Supported onboarding and academic integration of international students.
+    \item Mentored students academically and socially as a PREP Leader, improving engagement and inclusion.
+\end{itemize}
+
+\subsection*{Cloud Computing Intern \hfill May 2023 --- Jun 2023}
+\textit{HDLC Technologies | Chennai, India}
+\begin{itemize}
+    \item \textbf{Cloud Deployment:} Designed and deployed cloud-hosted applications using AWS core services (VMs, storage, managed databases).
+    \item \textbf{Infrastructure:} Configured secure access controls, resource monitoring, and cost-optimized cloud infrastructure.
+\end{itemize}
+
+% --- KEY PROJECTS ---
+\section*{Key Projects}
+
+\subsection*{Autonomous Email Lead Manager \& AI Workflow Orchestrator (n8n + OpenAI)}
+Developed an autonomous AI pipeline that reads/processes emails, extracts/prioritizes leads, and assigns follow-up tasks. Built agentic workflows with self-correction, memory, and multi-step LLM planning.
+\begin{itemize}
+    \item Built an event-driven automation system for ingesting, enriching, and managing business leads.
+    \item Architected decoupled workflows to separate job triggering from downstream data processing.
+    \item Integrated multiple external APIs while handling authentication, rate limits, and partial failures.
+\end{itemize}
+
+\subsection*{Autonomous AI Agent Defense for Enterprise Security}
+\begin{itemize}
+    \item Developed a multi-agent system simulating attacks and defenses on an enterprise AI application.
+    \item Implemented automated risk detection, response generation, and persistent security rules.
+    \item Designed a closed-loop defense mechanism enabling continuous self-improvement across attack cycles.
+\end{itemize}
+
+\subsection*{RecklamRadar: Smart Shopping \& Deals Mobile App \hfill Nov 2024 --- Jan 2025}
+\begin{itemize}
+    \item Engineered a shopping app using Flutter/Dart with real-time offers and interactive cart.
+    \item Implemented Firebase Authentication \& Firestore for secure login and real-time data updates.
+    \item Enhanced UI/UX with smooth animations, caching, and lazy loading.
+\end{itemize}
+
+\subsection*{Skill Exchange Web Application \hfill Sept 2025 --- Oct 2025}
+\begin{itemize}
+    \item \textbf{Full-Stack:} Engineered a peer-to-peer skill exchange platform using React (frontend) and Node.js/Express.js (backend).
+    \item \textbf{Security:} Implemented JWT/bcryptjs authentication and integrated Socket.io for real-time chat.
+    \item \textbf{Deployment:} Managed data via SQLite and ensured production readiness through Docker containerization.
+\end{itemize}
+
+\subsection*{Research: Raw SQL vs SQLAlchemy ORM Performance \hfill Sept 2024 --- Nov 2025}
+\begin{itemize}
+    \item Benchmarked Raw SQL vs. SQLAlchemy ORM for CRUD performance in PostgreSQL (100–50k records).
+    \item Found Raw SQL was faster for insertions; SQLAlchemy better for abstraction.
+\end{itemize}
+
+% --- LEADERSHIP & EDUCATION ---
+\section*{Leadership \& Education}
+
+\textbf{Master of Science in Software Engineering}, Blekinge Institute of Technology \hfill Aug 2025 --- Present \\
+\textit{Karlskrona, Sweden} | Focus: Intelligent System Design (Scholarship Awarded)
+
+\textbf{Bachelor of Technology in Computer Science}, Blekinge Institute of Technology \hfill Sept 2024 --- Jun 2025 \\
+\textit{Karlskrona, Sweden} | Final year in International Collaborative Program
+
+\textbf{B.Tech in Computer Science Engineering}, JNTU Kakinada \hfill Apr 2021 --- Aug 2024 \\
+\textit{Kakinada, India} | First three years of International Collaborative Program
+
+\end{document}
